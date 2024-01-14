@@ -1,0 +1,62 @@
+body {
+  font-family: "Lexend", sans-serif;
+}
+header {
+  text-align: center;
+}
+header h1 {
+  color: #52d3d8;
+  background-color: #3887be;
+}
+header h4 {
+  margin-top: 32px;
+  color: #52d3d8;
+}
+header p {
+  margin-top: -10px;
+  font-size: x-small;
+  color: #3887be;
+}
+.inputSection {
+  display: flex;
+  flex-direction: column;
+}
+
+#squareSide {
+  margin-top: 10px;
+  outline: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: #3887be solid;
+  padding: 10px;
+}
+#squareSide:focus {
+  border: solid #52d3d8;
+}
+button {
+  background-color: #38419d;
+  color: #3887be;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #52d3d8;
+}
+button:active {
+  background-color: #200e3a;
+  transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  -o-transform: translateY(2px);
+}
